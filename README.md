@@ -16,3 +16,9 @@ chmod +x *.sh
 ```
 
 Finished!
+
+
+# Credits:
+
+Many steps are taken with small modifications from this seriously awesome blog:
+https://www.pyimagesearch.com/2017/09/04/raspbian-stretch-install-opencv-3-python-on-your-raspberry-pi/
