@@ -77,6 +77,7 @@ echo $LINENO > ~/setup/checkpoint
 
 # Install python packages
 sudo pip3 install numpy
+sudo pip3 install munkres
 echo $LINENO > ~/setup/checkpoint
 
 
