@@ -17,6 +17,14 @@ chmod +x *.sh
 
 Finished!
 
+# Note:
+The script will also set python3 as the default python. If you don't want that, just run
+`sudo ln -sfn /usr/bin/python2.7 /usr/bin/python`
+afterwards.
+
+The script automatically sets your keyboard to German.
+If don't want that, change lines 10-12. Just replace "de" with "us", "en" or whatever your country code is.
+I might add an option to do this in the settings later on.
 
 # Credits:
 
