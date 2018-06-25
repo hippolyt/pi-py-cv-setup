@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Autostart-Script
+Comment=Kommentar
+Type=Application
+Exec=sudo raspi-config --expand-rootfs && sudo rm /home/pi/.config/autostart/resizefs.desktop
+Terminal=false
