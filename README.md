@@ -9,8 +9,9 @@ git clone https://github.com/hippolyt/pi-py-cv-setup
 cd pi-py-cv-setup
 cp -r setup /home/pi
 cd /home/pi/setup
-echo "MYWIFISSID" > /home/pi/setup/settings/wifi-ssid
-echo "MYWIFIPW" > /home/pi/setup/settings/wifi-pw
+mkdir /home/pi/setup/settings
+echo "A LANister always pays his debt" > /home/pi/setup/settings/wifi-ssid
+echo "clanchphRWTH2k17!" > /home/pi/setup/settings/wifi-pw
 chmod +x *.sh
 ./setup.sh
 ```
